@@ -114,8 +114,8 @@ class _CalMojiHomeState extends State<CalMojiHome> {
 
                             });
                           },),
-                          MyTextButton(title: '-', onPress: (){
-                            userInput += '-';
+                          MyTextButton(title: '%', onPress: (){
+                            userInput += '%';
                             setState(() {
 
                             });
